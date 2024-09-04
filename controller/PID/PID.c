@@ -53,5 +53,4 @@ int main(void)
     PIDcontroller.current_value = 0.0f;
 
     PID_Compute(&PIDcontroller);
-    
 }
