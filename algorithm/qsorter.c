@@ -1,5 +1,9 @@
 /* C Primer Plus 6th edition by stephen prata */
 /* Ch 16, p 894, list 16.17 */
+/* qsort() 함수는 void qsort(void *base, size_t nmemb, size_t size, int (*compar)(const void *, const void *)); */
+/* 마지막 전달인자 int (*compar)(const void *, const void *)가 변환 함수를 입력받는다. */
+
+
 
 /* qsorter.c -- qsort()를 사용하여 수들을 소팅한다 */
 #include <stdio.h>
